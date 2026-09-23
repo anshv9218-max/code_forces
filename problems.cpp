@@ -507,42 +507,42 @@
 
 
 // 469 A
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-    int n,p;
-    cin>>n;
-    cin>>p;
-    int x[p];
-    int y[p];
-    unordered_map <int,int> check;
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n,p;
+//     cin>>n;
+//     cin>>p;
+//     int x[p];
+//     int y[p];
+//     unordered_map <int,int> check;
     
-    for(int i=0;i<p;i++){
-        cin>>x[i];
-    }
-    for(int i=0;i<p;i++){
-        cin>>y[i];
-    }
-    for(int i=0;i<n;i++){
-        check[i]=0;
-    }
-    for(int i=0;i<p;i++){
-        check[x[i]]=1;
+//     for(int i=0;i<p;i++){
+//         cin>>x[i];
+//     }
+//     for(int i=0;i<p;i++){
+//         cin>>y[i];
+//     }
+//     for(int i=0;i<n;i++){
+//         check[i]=0;
+//     }
+//     for(int i=0;i<p;i++){
+//         check[x[i]]=1;
 
-    }
-    for(int i=0;i<p;i++){
-        check[y[i]]=1;
+//     }
+//     for(int i=0;i<p;i++){
+//         check[y[i]]=1;
 
-    }
-    for(auto v:check){
-        if(v.second==0){
-            cout<<"Oh, my keyboard!";
-            return 0;
-        }
+//     }
+//     for(auto v:check){
+//         if(v.second==0){
+//             cout<<"Oh, my keyboard!";
+//             return 0;
+//         }
 
-    }
-    cout<<"I become the guy.";
-    return 0;
+//     }
+//     cout<<"I become the guy.";
+//     return 0;
 
 
-}
+// }
